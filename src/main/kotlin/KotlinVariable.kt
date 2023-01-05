@@ -1,6 +1,7 @@
 
 fun main(){
 
+    //Undefine type
     val name = "Nazmul Hoque"
     val age = 23
     val height = 5.6
@@ -9,7 +10,6 @@ fun main(){
 
 
     //Define type
-
     var number : Int = 0
     number = 100
     var userName : String = "Nazmul"
