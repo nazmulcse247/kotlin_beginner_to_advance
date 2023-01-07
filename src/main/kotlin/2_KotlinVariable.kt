@@ -6,7 +6,7 @@ fun main(){
     val age = 23
     val height = 5.6
 
-    print("Name:"+name + " " +"Age:"+age+" "+ "Height:"+height)
+    println("Name:"+name + " " +"Age:"+age+" "+ "Height:"+" "+height)
 
 
     //Define type
