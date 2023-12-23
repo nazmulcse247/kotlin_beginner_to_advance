@@ -3,7 +3,7 @@ package kotlin_class
 class Employee {
 
     var name : String? = null
-    var age : Int? = null
+    private var age : Int? = null
 
     constructor(name : String){
         this.name = name

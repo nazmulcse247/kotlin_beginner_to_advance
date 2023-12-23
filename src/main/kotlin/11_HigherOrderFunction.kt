@@ -1,13 +1,13 @@
 fun main(args : Array<String>){
 
     addTwoNumber(a = 10, b = 20){
-        print("Sum is $it")
+        println("Sum is $it")
     }
 
     subtractTwoNumber(a = 20, b = 10){
         5
-
     }
+    println("")
 
 }
 
@@ -22,5 +22,5 @@ fun addTwoNumber(a : Int, b: Int , action : (Int) -> Unit){
 fun subtractTwoNumber(a : Int , b : Int , action: (Int) -> Int){
     val sub : Int = a - b
     action(sub)
-    print(sub)
+    println("sub $sub")
 }
