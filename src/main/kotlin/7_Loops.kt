@@ -19,7 +19,6 @@ fun main(args : Array<String>){
     }
 
     //print value of list using for loop
-
     val employeeList = ArrayList<String>()
 
     employeeList.add("Mr. karim")

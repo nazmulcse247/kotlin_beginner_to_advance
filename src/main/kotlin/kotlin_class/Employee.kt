@@ -3,7 +3,9 @@ package kotlin_class
 class Employee {
 
     var name : String? = null
-    private var age : Int? = null
+    var age : Int? = null
+
+    constructor()
 
     constructor(name : String){
         this.name = name
@@ -14,9 +16,8 @@ class Employee {
         this.age = age
     }
 
-
     fun showEmployee() : String {
-        return name +" "+ age
+        return "$name $age"
     }
 
 
